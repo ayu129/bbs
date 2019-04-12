@@ -6,9 +6,9 @@ require './app'
 Dotenv.load
 
 Cloudinary.config do |config|
-  config.cloud_name = ENV['CLOUD_NAME']
-  config.api_key    = ENV['CLOUDINARY_API_KEY']
-  config.api_secret = ENV['CLOUDINARY_API_SECRET']
+  config.cloud_name = ENV['ayu129']
+  config.api_key    = ENV['452844118843725']
+  config.api_secret = ENV['WHwUew8ysvFlj8j1wxHAE2xh5RY']
 end
 
 run Sinatra::Application
